@@ -26,3 +26,59 @@ pipeline {
         }
     }
 }
+
+
+pipleline{
+    agent any
+        stages{
+            stage("Build"){
+                steps{
+                    echo " This is the building phase"
+                    echo "building successfull"
+                }
+            }
+            stage("test"){
+                steps{
+                    echo " This is the testing phase"
+                    echo "testing successfull"
+                }
+            }
+            stage("deploye"){
+                steps{
+                    echo "this is the deployment phase"
+                    echo "deploying successfull"
+                    echo "application is ready to use"
+                }
+            }
+        }
+}
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
