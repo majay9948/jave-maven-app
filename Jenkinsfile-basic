@@ -30,7 +30,7 @@
 
 pipleline{
     agent any
-        stages{
+    stages{
             stage("Build"){
                 steps{
                     echo " This is the building phase"
