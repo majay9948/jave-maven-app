@@ -1,6 +1,6 @@
 def buildJar() {
     echo "building the application..."
-    sh 'apt-update'
+    sh 'apt-get update'
     sh 'sudo apt install maven'
     sh 'mvn package'
 } 
